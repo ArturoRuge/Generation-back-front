@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compra Chasis Factory</title>
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+      <!-- Bootstrap CSS -->
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Bootstrap Icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+      <!-- bootstrap cnd -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <!-- Vincular archivo CSS -->
+      <link rel="stylesheet" href="../css/styles.css">
+      <link rel="stylesheet" href="../css/contactenos.css">
+      <link rel="stylesheet" href="../css/chasis.css">
+      <link rel="stylesheet" href="../css/carrito-compras.css">
+    
+    </head>
+</head>
+<body>
+      <!-- Barra superior -->
+      <div class="container-top-bar">
+        <div class="top-bar text-center container">
+          <span class="float-left mr-3" id="messageUser"></span>
+          <span>10% off utilizando el código BIENVENIDO1</span>
+          <a href="#" class="float-right mr-3">Soporte y ayuda</a>
+        </div>
+      </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+      <a class="navbar-brand" href="#">ChasisFactory</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="inicio.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="conocenos.html">Conócenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactenos.html">Contáctenos</a>
+          </li>
+          <li class="nav-item" id="adminOpt">
+          </li>
+          <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="¿Buscas algo en especial?" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </li>
+        </ul>
+        <a href="#" class="nav-link"><i class="bi bi-bag"></i></a>
+        <a href="iniciar-sesion.html" class="nav-link" id="ingresar">Ingresar</a>
+        <a href="iniciar-sesion.html" class="nav-link ocultar" id="cerrar-sesion">Cerrar sesión</a>
+      </div>
+    </div>
+    </nav>
+    
+
+<!-- DETALLES PRODUCTO -->
+
+    <div class="container producto">
+        <h1>Detalles de tu pedido</h1>
+      <div class="row"> 
+        
+        <div class="col-12 col-xl-6 detalles-pedido">
+           
+          <div id="checkoutContent"></div>
+          <h3 id="totalAmount"></h3>
+            <!-- <div class="imagen">
+                <img src="../pics/chasis/chasis1.jpg" class="card-img-top" alt="ilustracion del servicio de chasis personzalizado">
+            </div>
+                      
+        </div>
+
+        <div class="col-12 col-xl-3 detalles-pedido">
+            <div class="descripcion">
+                
+                <h2>Chasis Vortex RGB</h2>
+ 
+                <p><strong>Color:</strong>  Blanco Puro</p>
+                <p><strong>Tamaño:</strong>  M ATX estándar</p>
+                <p><strong>Iluminación:</strong>  Tiras LED RGB</p>
+                <p><strong>Ventilación:</strong>  Refrigeración liquida personalizada</p>
+                <p><strong>Cantidad: </strong> 1</p>
+
+                <p class="eliminar"><a href="tienda.html">VOLVER</a><a href="#">Eliminar X</a></p>
+
+                <hr>
+
+          </div> -->
+            </div>
+
+            <!-- DATOS ENVIO -->
+
+           <div class="col-12 col-xl-5 orden">
+            <h3>¡Hemos recibido tu oden!</h3>
+            <img src="../pics/compra-exitosa.png" alt="">
+            
+
+           </div>
+
+
+           <div class="row fila2">
+            <!-- INFO ESTRA ORDEN -->
+            <div class="col-12 col-xl-6 detalles-pedido">
+              <div class="informacion">
+                  
+                  <h4>Información de tu Orden</h4>
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Política de retorno
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">En nuestra tienda, la satisfacción del cliente es nuestra prioridad. Si no estás completamente satisfecho con tu compra, puedes solicitar una devolución dentro de los primeros 30 días a partir de la fecha de entrega. El producto debe estar en su empaque original y sin señales de uso para poder procesar el reembolso. Ten en cuenta que algunos artículos personalizados podrían no ser elegibles para devoluciones. Para iniciar el proceso, contáctanos a través de nuestro servicio al cliente, y te proporcionaremos instrucciones detalladas. Los costos de envío de retorno serán responsabilidad del cliente, salvo en casos de defectos de fabricación o errores en el pedido.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Opciones de envío
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Ofrecemos varias opciones de envío para adaptarnos a tus necesidades. Los pedidos estándar se procesan y envían dentro de los 2-5 días hábiles, y la entrega puede variar dependiendo de tu ubicación. También contamos con opciones de envío rápido, para aquellos que deseen recibir su pedido en un plazo de 1-2 días hábiles. Todos nuestros envíos incluyen un número de seguimiento para que puedas monitorear tu pedido en tiempo real. Asegúrate de verificar las tarifas y tiempos estimados de entrega al momento de finalizar tu compra.</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+            </div>
+            </div>
+
+      
+
+          </div>
+
+
+
+      </div>
+      
+     </div>
+  
+    <!-- DETALLES PRODUCTO -->
+  
+
+
+    <!-- -----------FOOTE -->
+<footer class="footer">
+  <div class="container">
+  <section class="footer-social">
+    <div class="footer-line"></div>
+    <div class="footer-logos">
+      <a href=""><img src="../pics/logo-facebook.png" alt=""></a>
+      <a href=""><img src="../pics/logo-instagram.png" alt=""></a>
+      <a href=""><img src="../pics/logo-tiktok.png" alt=""></a>
+      <a href=""><img src="../pics/logo-x.png" alt=""></a>
+    </div>
+  </section>
+
+  <section class="footer-email">
+  <h3>ChasisFactory</h3>
+  <p>Recibe en tu correo ofertas especiales e información exclusiva sobre productos y servicios</p>
+  <input type="text" placeholder="Ingresa tu correo Electrónico" class="footer-email-input">
+  <button class="footer-email-button">Registrar</button>
+</section>
+</div>
+
+<section class="footer-bar">
+  <p>Copyright © 2024 Chasis Factory. Todos los derechos reservados </p>
+  <div class="bottom-bar-links">
+    <a href="politicas.html">Politica de Privacidad</a>
+    <a href="cookies.html">Configuración de cookies</a>
+    <a href="soporte.html">Soporte y Ayuda</a>
+  </div>
+
+</section>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="../js/usuarioLogueado.js"></script>
+    <script src="../js/realizar-pago.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/compra.js"></script>
+</body>
+</html>

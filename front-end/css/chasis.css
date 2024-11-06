@@ -1,0 +1,77 @@
+.producto{
+    margin-top: 100px;
+    margin-bottom: 100px ;
+}
+.color{
+    margin-bottom: 24px;
+}
+.colores{
+    display: flex;
+}
+.color1,
+.color2,
+.color3,
+.color4{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.color1:hover,
+.color2:hover,
+.color3:hover,
+.color4:hover{
+border: 2px solid grey;
+}
+.color1{
+    background-color: aqua;
+}
+.color2{
+    background-color:coral;
+}
+.color3{
+    background-color:yellowgreen;
+}
+.color4{
+    background-color:violet;
+}
+.tamano p{
+    margin-bottom: 16px;
+}
+.tamanos span{
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    padding: 16px;
+    margin-left: 8px;
+}
+.tamanos span:hover{
+    border: 2px solid grey;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.iluminacion{
+    margin: 40px 0 16px;
+}
+.ventilacion{
+    margin-bottom: 18px;
+}
+.botones{
+    margin: 50px 0 32px;
+}
+.agregar{
+    background-color: #E3E3E3;
+}
+.mas-info a{
+    text-decoration: none;
+    color: #5C5C5C;
+    font-size: small;
+    margin-left: 16px;
+}
+
+.mas-info a:hover{
+    text-decoration: underline;
+}

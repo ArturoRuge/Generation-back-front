@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+  --gris-oscuro: #4a4a4a;
+  --gris-claro: #E0E0E0;
+  --verde: #98FF98;
+  --naranja: #FF7043;
+  --azul: #003366;
+  
+}
+/* Aplicar la fuente "Roboto" a todo el documento */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: var(--azul);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(33, 37, 41, 0.75);
+}
+.btn:hover{
+
+  color: #5C5C5C !important;
+  font-weight: 600 !important;
+  border: none;
+}
+#messageIncluded{
+  font-size: 1.1rem;
+  color: #4a816d;
+}
+
+/* Estilos para la barra superior */
+.container-top-bar{
+  background-color: var(--naranja);
+
+  width: 100%;
+}
+.top-bar {
+
+  color: #5C5C5Cte;
+  padding: 12px 0;
+  font-size: 20px;
+}
+
+.top-bar a {
+  color: #5C5C5C;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+/* Estilos para la marca en el navbar */
+.navbar{
+  padding: 9px 70px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* Espaciado en los elementos de la barra de navegación */
+.navbar-nav .nav-item {
+  margin-right: 5px;
+}
+
+/* Estilos para el campo de búsqueda */
+.form-inline .form-control {
+  width: 250px;
+}
+
+/* Estilos para los enlaces en la navbar */
+.nav-link {
+  color: var(--gris-oscuro);
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif; /* Aplicar Roboto */
+}
+
+.nav-link:hover {
+  color: var(--naranja) !important;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif; /* Aplicar Roboto */
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-outline-success {
+  color: #474747;
+  border-color: #e6e6e6;
+  font-family: 'Roboto', sans-serif; /* Aplicar Roboto */
+}
+
+.btn-outline-success:hover {
+  background-color: #202220;
+  color: white;
+  font-family: 'Roboto', sans-serif; /* Aplicar Roboto */
+}
+
+/* Iconos y botones de la parte derecha */
+.navbar .fas {
+  margin-left: 5px;
+}
+
+/* contenido nosotros */
+.nosotros{
+    margin-top: 70px;
+}
+.nosotros-h1{
+  margin-bottom: 70px ;
+}
+
+/* Nuestro Equipo */
+.nuestro-equipo{
+  margin: 70px 0;
+}
+.card {
+    width: 280px;
+    max-width: 100%;
+    transition: all 0.5s ease;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--gris-claro);
+    margin: 2% auto;
+    min-height: 520px; /* Altura mínima */
+    flex-grow: 1; /*¿necesario?*/
+    max-height: 100vh; /* Mantiene la card con el tamaño según la ventana*/
+}
+
+.card .backgroundEffect {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #E3E3E3;
+    transition: all 0.5s ease-in;
+    z-index: -1;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+}
+
+.card:hover .backgroundEffect {
+    height: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card .pic {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Evita que las imágenes se desborden */
+}
+
+.card .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.card .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    flex-grow: 1;
+}
+
+.card .content .h-1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: clamp(18px, 2.5vw, 22px); /* Tamaños ajustados */
+}
+
+.card .content .text-muted {
+    font-size: clamp(16px, 1.5vw, 18px); /* Tamaños ajustados */
+    margin: 0;
+    line-height: 1.4; /* Mejora la legibilidad */
+}
+
+
+
+
+
+.button{
+  padding: 9px 18px;
+  margin-left: 18px;
+  background-color: var(--naranja);
+  border: none;
+  border-radius: 25px ;
+  width: 200px;
+  font-size: 1.2rem;
+  color: #5C5C5C;
+}
+
+
+
+
+/* FOOTER */
+.footer-line{
+height: 3px;
+position: relative;
+top: 60px;
+background-color: var(--gris-oscuro);
+z-index: 5;
+color: var(--gris-claro);
+}
+.footer-logos{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+.footer-logos img{
+  width: 70px;
+  margin: 18px;
+}
+.footer{
+  margin-top: 200px ;
+  text-align: center;
+  width: 100%;
+}
+.footer-email{
+  margin: 50px 0 70px;
+}
+.footer-email-input{
+  padding: 9px;
+  width: 30%;
+  border: 1px solid #5C5C5C;
+}
+.footer-email-button{
+  padding: 9px 18px;
+  margin-left: 18px;
+  background-color: var(--azul);
+  border: none;
+  border-radius: 15px ;
+  color: var(--gris-claro);
+}
+.footer-bar{
+  background-color: var(--gris-oscuro);
+  color: var(--gris-claro);
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  width: 100%;
+
+}
+.footer-bar p{
+  color: var(--gris-claro);
+}
+.footer-bar a{
+  color: #fff;
+  margin-left: 18px;
+}
+
+
+button[aria-expanded="true"]{
+  background-color:#B5EAD7 ;
+}
+
+.buttonp{
+  padding: 18px;
+  margin-left: 18px;
+  background-color: var(--verde);
+  border: none;
+  border-radius: 25px ;
+  text-decoration: none;
+  color: var(--azul);
+  font-size: 1.2rem;
+}
+.buttonp:hover{
+  background-color: var(--naranja);
+  font-weight: 600;
+  text-decoration: none;
+}
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display:block;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+        margin: 5% auto;
+        max-height: none; /* Elimina la restricción de altura en pantallas medianas */
+    }
+
+    .card .pic img {
+        max-height: 40vh; /* Ajusta la altura máxima para pantallas medianas */
+    }
+
+    .card .content .h-1 {
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
+    .card .content .text-muted {
+        font-size: clamp(12px, 2.5vw, 16px);
+    }
+    .footer-email-input{
+      width: 60%;
+    }
+    .top-bar a{
+      display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        margin: 5% auto;
+        max-height: none; /* Elimina la restricción de altura en pantallas pequeñas */
+    }
+
+    .card .pic img {
+        max-height: 30vh; /* Ajusta la altura máxima para pantallas pequeñas */
+    }
+
+    .card .content {
+        padding: 4%;
+    }
+
+    .card .content .h-1 {
+        font-size: clamp(14px, 3vw, 18px);
+        margin-bottom: 4%;
+    }
+
+    .card .content .text-muted {
+        font-size: clamp(10px, 2vw, 14px);
+    }
+}

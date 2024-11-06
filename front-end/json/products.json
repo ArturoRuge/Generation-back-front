@@ -1,0 +1,87 @@
+[
+    {
+      "nombre": "Chasis Gamer X1",
+      "imagen": "../pics/chasis/chasis1.jpg",
+      "descripcion": "Chasis compacto con luces RGB y ventilación eficiente.",
+      "precio": 350000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Pro Max",
+      "imagen": "../pics/chasis/chasis2.jpg",
+      "descripcion": "Chasis de alta gama con soporte para múltiples ventiladores.",
+      "precio": 420000,
+      "link": "chasis2.html"
+    },
+    {
+      "nombre": "Chasis Eco",
+      "imagen": "../pics/chasis/chasis3.jpg",
+      "descripcion": "Chasis ecológico, hecho con materiales reciclados.",
+      "precio": 280000,
+      "link": "chasis3.html"
+    },
+    {
+      "nombre": "Chasis RGB Infinity",
+      "imagen": "../pics/chasis/chasis4.jpg",
+      "descripcion": "Chasis de diseño futurista con iluminación RGB programable.",
+      "precio": 500000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Ultra Silent",
+      "imagen": "../pics/chasis/chasis5.jpg",
+      "descripcion": "Chasis con diseño que minimiza el ruido del sistema.",
+      "precio": 330000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Mini Tower",
+      "imagen": "../pics/chasis/chasis6.jpg",
+      "descripcion": "Chasis compacto ideal para espacios reducidos.",
+      "precio": 200000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Beast Mode",
+      "imagen": "../pics/chasis/chasis7.jpg",
+      "descripcion": "Chasis grande con espacio para enfriamiento líquido.",
+      "precio": 600000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Sleek Black",
+      "imagen": "../pics/chasis/chasis8.jpg",
+      "descripcion": "Chasis con acabado negro mate y diseño minimalista.",
+      "precio": 320000,
+      "link": "chasis1.html"
+
+    },
+    {
+      "nombre": "Chasis Aurora",
+      "imagen": "../pics/chasis/chasis9.jpg",
+      "descripcion": "Chasis con panel lateral de vidrio templado y luces LED.",
+      "precio": 450000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Titan",
+      "imagen": "../pics/chasis/chasis10.jpg",
+      "descripcion": "Chasis de gran tamaño para sistemas de alto rendimiento.",
+      "precio": 550000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Titan",
+      "imagen": "../pics/chasis/chasis11.jpg",
+      "descripcion": "Chasis de gran tamaño para sistemas de alto rendimiento.",
+      "precio": 550000,
+      "link": "chasis1.html"
+    },
+    {
+      "nombre": "Chasis Titan",
+      "imagen": "../pics/chasis/chasis12.jpg",
+      "descripcion": "Chasis de gran tamaño para sistemas de alto rendimiento.",
+      "precio": 550000,
+      "link": "chasis1.html"
+    }
+  ]

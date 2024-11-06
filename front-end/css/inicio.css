@@ -1,0 +1,132 @@
+:root{
+    --gris-oscuro: #4a4a4a;
+    --gris-claro: #E0E0E0;
+    --verde: #98FF98;
+    --naranja: #FF7043;
+    --azul: #003366;
+    
+  }
+
+.main-content {
+    text-align: center;
+}
+.text-container{
+    margin: 80px 0;
+    text-align: center;
+}
+h1{
+    color: var(--azul);
+}
+.text-container p {
+    color: #777;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.products {
+    margin-bottom: 40px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: inset 0 0 10px 0 var(--verde);
+    transition: box-shadow 0.5s ease-in-out; 
+    animation: iluminar 2s infinite alternate; 
+}
+@keyframes iluminar {
+    from {
+        box-shadow: inset 0 0 10px 0 var(--verde); /* Estado inicial */
+    }
+    to {
+        box-shadow: inset 0 0 14px 0 var(--naranja); /* Estado final */
+    }
+}
+
+.product-link,
+.product-link:hover {
+    text-decoration: none;
+}
+
+.product:hover{
+    animation: none; /* Detenemos la animación */
+    box-shadow: inset 0 0 14px 0 var(--naranja); /* Sombra iluminada */
+}
+
+.product img {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    margin-bottom: 10px;
+    color: var(--azul);
+}
+
+.product p {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+
+.producto-1,
+.producto-3{
+    position: relative;
+    top: 60px;
+}
+
+.ver-tienda{
+    margin: 200px 0 100px;
+}
+.ver-tienda p{
+    color: #777;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+ .button-tienda{
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+ }
+
+.row{
+    justify-content: space-between;
+}
+.button-producto{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+
+}
+
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .main-content p {
+        width: 100%;
+    }
+    .producto-1,
+.producto-3{
+    top: 0;
+    margin: 40px 0;
+}
+.button-tienda{
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+ }
+.button-producto{
+    width: 90%;
+}
+    
+
+}

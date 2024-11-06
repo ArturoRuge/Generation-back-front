@@ -1,0 +1,128 @@
+
+:root{
+    --gris-oscuro: #4a4a4a;
+    --gris-claro: #E0E0E0;
+    --verde: #98FF98;
+    --naranja: #FF7043;
+    --azul: #003366;
+    
+  }
+.banner{
+    margin-top: 70px;
+    position: relative;
+}
+.banner{
+    background-image: url(../pics/bg2-banner.png);
+    background-size:cover;
+    background-position: center;
+}
+.banner-container{
+    background-image: url(../pics/fondo-baner-contactenos.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 70px 0 10px;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 700px;
+}
+.banner-title{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.banner-direction{
+    margin-top: 40px;
+}
+.banner-character{
+    position: absolute;
+    bottom: -40px;
+    right: -200px;
+
+}
+.banner-line{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.form{
+    margin: 70px 0
+}
+.form .form-input{
+    width: 100%;
+    padding: 9px;
+}
+.form textarea{
+    width: 100%;
+    padding: 9px;
+}
+.form-col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 9px;
+    background-image: url(../pics/bg-soporte.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form-col3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 9px;
+    background-image: url(../pics/bg-artista.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form a{
+    color: #5C5C5C;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.button{
+    padding: 9px 18px;
+    margin-left: 18px;
+    background-color: var(--verde);
+    border: none;
+    border-radius: 25px ;
+    width: 200px;
+    font-size: 1.2rem;
+    color: #5C5C5C;
+}
+
+/* FOOTER */
+.footer-email h3{
+    margin-top: 100px;
+}
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .banner{
+        background-size: contain;
+    }
+.banner-container{
+    background-size:cover ;
+    background-position: center;
+}
+.banner-character{
+    right: -280px;
+    bottom: -80px;
+}
+.banner-line{
+    margin: 50px auto;
+}
+.footer-logos{
+    margin-top: 60px;
+}
+.footer-logos img{
+    width: 60px;
+    margin: 18px;
+  }
+.form-col2{
+    height: 500px;
+}
+
+}

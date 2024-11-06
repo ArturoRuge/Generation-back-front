@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contáctenos</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- bootstrap cnd -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Vincular archivo CSS -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/ingresarProducto.css">
+
+      
+      </head>
+
+
+
+<body>
+
+  <!-- Barra superior -->
+  <div class="container-top-bar">
+    <div class="top-bar text-center container">
+      <span class="float-left mr-3" id="messageUser"></span>
+      <span>10% off utilizando el código BIENVENIDO1</span>
+      <a href="#" class="float-right mr-3">Soporte y ayuda</a>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="#">ChasisFactory</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tienda.html">Tienda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="conocenos.html">Conócenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactenos.html">Contáctenos</a>
+        </li>
+        <li class="nav-item" id="adminOpt">
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Buscas algo en especial?" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </li>
+      </ul>
+      <a href="#" class="nav-link"><i class="bi bi-bag"></i></a>
+      <a href="iniciar-sesion.html" class="nav-link" id="ingresar">Ingresar</a>
+      <a href="iniciar-sesion.html" class="nav-link ocultar" id="cerrar-sesion">Cerrar sesión</a>
+    </div>
+  </div>
+  </nav>
+<!-- main -->
+
+<main>
+    <section class="banner">
+        <div class="banner-container container">
+        <h1 class="banner-title">Crea tu perfil y empieza a personalizar el chasis de tus sueños!</h1>
+    
+          <p class="banner-text">Bienvenido a Chasis Factory, el lugar donde tu imaginación cobra vida en cada chasis. En nuestra plataforma, puedes crear y personalizar tu chasis de computador como siempre lo soñaste. </p>  
+      </div>
+      </section>
+
+
+  <section class="container text-center container-form">
+  <section class="row form">
+
+    <article class="col form-col2">
+        <img src="../pics/creacion-perfil-1.png" alt="">
+      </article>
+
+    <article class="col-12 col-lg-6 form-col1">
+      <h2>Ingresa tus datos</h2>
+
+<!-- Formulario de envio de productos  -->
+
+<form id="infoForm" class="custom-form">
+          
+  <!-- Nombre del usuario  -->
+<div class="mb-3">
+<label for="nameInput" class="form-label label-custom"></label>
+<input type="text" class="form-control input-custom" id="nameInput" placeholder="Escribe tu nombre y apellido" required name="nombreApellido">
+</div>
+
+   <!-- Número de teléfono  -->
+
+<div class="mb-3">
+<label for="numeroTel" class="form-label label-custom"></label>
+<input type="number" class="form-control input-custom" id="numeroTel" placeholder="Escribe tu número de Teléfono" name="numeroTel" required>
+</div>
+
+   <!-- Email  -->
+<div class="mb-3">
+<label for="priceInput" class="form-label label-custom"></label>
+<input type="email" class="form-control input-custom" id="email" placeholder="Escribe tu correo Electrónico" name="email" required>
+</div>
+
+   <!-- ingreso contraseña-->
+   <div class="mb-3">
+    <label for="password" class="form-label label-custom"></label>
+    <input type="password" class="form-control input-custom" id="password" placeholder="Escribe tu contraseña" name="password" required aria-describedby="passwordHelpBlock">
+    <div id="passwordHelpBlock" class="form-text">
+      Crea una contraseña que tenga entre 8 y 10 caracteres, contenga letras y números, y no contenga espacios, caracteres especiales ni emojis.
+    </div>
+   <div class="mb-3">
+    <label for="password2" class="form-label label-custom"></label>
+    <input type="password" class="form-control input-custom" id="password2" placeholder="Vuelve a escribir tu contraseña" name="password2" required>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="showPassword">
+      <label class="form-check-label" for="flexCheckDefault">
+        Mostrar Contraseñas
+      </label>
+    </div>
+
+
+    <!-- espacio de alerta de error cuando las contraseñas coincidem-->
+<div id="errorMessage" style="color: red;"></div>
+
+
+<div id="messageIncluded"></div>
+
+                             <!-- Botón del formulario -->  
+<button  type="submit" class="btn btn-primary btn-custom button" id="alertMessage" onclick="registrarUsuario(event)">Crear perfil</button>
+</form>
+
+
+
+    </article>
+    <article class="col form-col3">
+      <img src="../pics/creacion-perfil-2.png" alt="">
+    </article>
+
+  </section>
+
+
+
+
+</main>
+
+
+
+<!-- -----------FOOTER -->
+<footer class="footer">
+    <div class="container">
+    <section class="footer-social">
+      <div class="footer-line"></div>
+      <div class="footer-logos">
+        <a href=""><img src="../pics/logo-facebook.png" alt=""></a>
+        <a href=""><img src="../pics/logo-instagram.png" alt=""></a>
+        <a href=""><img src="../pics/logo-tiktok.png" alt=""></a>
+        <a href=""><img src="../pics/logo-x.png" alt=""></a>
+      </div>
+    </section>
+  
+    <section class="footer-email">
+    <h3>ChasisFactory</h3>
+    <p>Recibe en tu correo ofertas especiales e información exclusiva sobre productos y servicios</p>
+    <input type="text" placeholder="Ingresa tu correo Electrónico" class="footer-email-input">
+    <button class="footer-email-button">Registrar</button>
+  </section>
+  </div>
+  
+  <section class="footer-bar">
+    <p>Copyright © 2024 Chasis Factory. Todos los derechos reservados </p>
+    <div class="bottom-bar-links">
+      <a href="politicas.html">Politica de Privacidad</a>
+      <a href="cookies.html">Configuración de cookies</a>
+      <a href="soporte.html">Soporte y Ayuda</a>
+    </div>
+  
+  </section>
+  
+  </footer>
+
+  <div class="cart-icon" onclick="openCart()">
+    🛒
+  </div>
+  
+  <!-- Ventana del carrito -->
+  <div class="cart-window" id="cartWindow">
+    <div class="cart-header">
+        <h2>Carrito de compras</h2>
+        <button class="close-btn" onclick="closeCart()">X</button>
+    </div>
+    <div class="cart-content" id="cartContent">
+        <!-- Aquí se cargan los productos del carrito -->
+    </div>
+    <div class="cart-footer">
+        <button onclick="proceedToCheckout()">Comprar</button>
+    </div>
+  </div>
+
+
+  <script>
+        document.getElementById('showPassword').addEventListener('click', function () {
+      const passwordField = document.getElementById('password');
+      const passwordField2 = document.getElementById('password2');
+      if (this.checked) {
+          passwordField.type = 'text';
+          passwordField2.type = 'text';
+      } else {
+          passwordField.type = 'password';
+          passwordField2.type = 'password';
+      }
+  });
+
+  const passwordField = document.getElementById('password');
+      passwordField.addEventListener('input', () => {
+          validatePassword();
+      });
+  
+      function validatePassword() {
+          const password = passwordField.value;
+          const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,20}$/;
+  
+          if (passwordRegex.test(password)) {
+              passwordField.setCustomValidity('');
+          } else {
+              passwordField.setCustomValidity('Crea una contraseña que tenga entre 8 y 10 caracteres, contenga letras y números, y no contenga espacios, caracteres especiales ni emojis.');
+          }
+      }
+  </script>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="../js/formularioProductos.js"></script>
+  <script src="../js/registro-usuario.js"></script>
+  <script src="../js/usuarioLogueado.js"></script>
+  <script src="../js/carrito.js"></script>
+</body>
+</html>

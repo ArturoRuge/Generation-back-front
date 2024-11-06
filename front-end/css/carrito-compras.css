@@ -1,0 +1,49 @@
+.detalles-pedido{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    margin-bottom: 32px;
+}
+.eliminar{
+        display: flex;
+        justify-content: space-around;
+}
+.eliminar a{
+    text-decoration: none;
+    color: grey;
+}
+.eliminar a:hover{
+    text-decoration: underline;
+}
+.orden{
+    margin-left: 100px ;
+}
+.orden-info{
+    display: flex;
+    justify-content: space-between;
+}
+.button-pago{
+    display: inline-block;
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+.informacion{
+    width: 100%;
+}
+.form-check{
+    margin-top: 15px;
+}
+.fila2{
+    margin-top: 40px;
+
+}
+
+
+@media (max-width: 1200px) {
+    .orden{
+        margin-left: 0 ;
+    }
+
+}

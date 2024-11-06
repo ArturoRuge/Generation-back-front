@@ -1,0 +1,50 @@
+
+:root{
+    --gris-oscuro: #4a4a4a;
+    --gris-claro: #E0E0E0;
+    --verde: #98FF98;
+    --naranja: #FF7043;
+    --azul: #003366;
+    
+  }
+.banner{
+    background-color: var(--verde);
+    padding: 50px 0;
+}
+.banner-text{
+    width: 70%;
+    
+}
+textarea{
+    width: 100%;
+    padding: 8px;
+}
+.custom-form{
+    margin-bottom: 50px;
+}
+.button{
+    padding: 9px 18px;
+    margin-left: 18px;
+    background-color: var(--verde);
+    border: none;
+    border-radius: 25px ;
+    width: 200px;
+    font-size: 1.2rem;
+    color: #5C5C5C;
+    margin-top: 40px;
+}
+.button:hover{
+    
+}
+.container-form{
+    margin-top: 50px;
+}
+.col img{
+    width: 80%;
+}
+.optForm{
+    margin-top: 30px;
+}
+.optForm-new{
+    margin-top: 30px;
+}
